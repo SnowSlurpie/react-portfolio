@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./components/navbar";
-// import Contact from "./pages/contact/contact";
-// import Portfolio from "./pages/portfolio/portfolio";
+import Contact from "./pages/contact/contact";
+import Portfolio from "./pages/portfolio/portfolio";
 // import AboutMe from "./pages/aboutMe/aboutMe";
 
 // These need to be completed
