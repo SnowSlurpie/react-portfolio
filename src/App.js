@@ -1,10 +1,10 @@
 import React from "react";
-import Navbar from "./components/navbar";
-import Contact from "./components/contact";
-import Resume from "./components/resume";
-import Portfolio from "./components/portfolio";
-import AboutMe from "./components/aboutMe";
+// import Navbar from "./components/navbar";
+// import Contact from "./components/contact";
+// import Portfolio from "./components/portfolio";
+// import AboutMe from "./components/aboutMe";
 
+// These need to be completed
 
 function App() {
   return (
@@ -12,7 +12,6 @@ function App() {
       <Navbar />
       <AboutMe />
       <Portfolio />
-      <Resume />
       <Contact />
     </div>
   );
