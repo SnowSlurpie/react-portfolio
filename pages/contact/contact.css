@@ -1,0 +1,81 @@
+#contact{
+    height: 555px;
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+
+#contact-title-container h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    display: inline;
+    font-size: 43px;
+}
+
+.project-title{
+    color: black;
+}
+
+#contact{
+    color: #03a7f3;
+}
+
+#contact-container{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+#contact-me{
+    margin: 20px 0px 40px 0px;
+    text-align: center;
+    width: 642px;
+}
+
+#contact-button{
+    border-radius: 12px;
+    background-color: transparent;
+    border: solid 1px black;
+    color: black;
+    font-size: 18px;
+    width: 161px;
+    height: 46px;
+}
+
+#contact-button:hover{
+    cursor: pointer;
+    color: #656565;
+    border: solid 1px #656565;
+}
+
+@media screen and (max-width:1060px) {
+    #connect{
+        height: 398px;
+    }
+
+    #connect-with-me{
+        margin-bottom: 38px;
+        width: 550px;
+    }
+}
+
+/* for large phones*/
+@media screen and (max-width:744px) {
+    #contact-me{
+        max-width: 364px;
+    }
+
+    #contact-title-container h1{
+        font-size: max(5.75vw,29px);
+    }
+
+    #contact-container{
+        margin: 52px 0px;
+    }
+
+    #contact{
+        height: fit-content;
+    }
+}

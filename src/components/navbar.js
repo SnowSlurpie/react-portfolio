@@ -1,8 +1,8 @@
 import React, {useEffect, useState} from "react";
-import pdf from "../../assets/resume.pdf";
-import "./navbar.css";
+// import pdf from "../../assets/resume.pdf";
+// import "./navbar.css";
 
-
+// TO DO: add resume link and do CSS
 function Navbar(){
     const [active, setActive] = useState(false);
 
@@ -25,7 +25,7 @@ function Navbar(){
             <li> <a> Intro</a> </li>
             <li> <a> Portfolio</a> </li>
             <li> <a> Contact</a> </li>
-            <li> <a href={Pdf}> Resume</a> </li>
+            {/* <li> <a href={Pdf}> Resume</a> </li> */}
            </ul>
         </div>
     )

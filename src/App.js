@@ -1,8 +1,8 @@
 import React from "react";
-// import Navbar from "./components/navbar";
-// import Contact from "./components/contact";
-// import Portfolio from "./components/portfolio";
-// import AboutMe from "./components/aboutMe";
+import Navbar from "./components/navbar";
+// import Contact from "./pages/contact/contact";
+// import Portfolio from "./pages/portfolio/portfolio";
+// import AboutMe from "./pages/aboutMe/aboutMe";
 
 // These need to be completed
 
