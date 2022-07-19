@@ -1,0 +1,186 @@
+#aboutme{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    padding-top: 228px;
+    padding-bottom: 158px;
+    width: 100%;
+}
+
+#aboutMeContainer{
+    display: flex;
+    justify-content: center;
+    width: 1040px;
+    margin: 0px auto;
+}
+
+.Typewriter__wrapper {
+    font-size: 2.2em !important;
+    color: #74c2e7 !important;
+    font-weight: 600 !important;
+  }
+  .Typewriter__cursor {
+    font-size: 2.4em !important;
+    color: #74c2e7 !important;
+  }
+  
+  @media (max-width: 767px) {
+    .Typewriter__wrapper {
+      font-size: 1.4em !important;
+      font-weight: 500 !important;
+      position: absolute !important;
+    }
+    .Typewriter__cursor {
+      display: none !important;
+    }
+  }
+
+.my-title{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    margin: 0px;
+    color: black;
+    font-size: 43px;
+}
+
+.contact-icons{
+    width: 38px;
+}
+
+.contact-icons:hover{
+    opacity: 0.6;
+}
+
+#icon-tags{
+    float: right;
+}
+
+#github, #insta{
+    margin-left: 15px;
+}
+
+#insta{
+    margin-right: 5px;
+}
+
+#name{
+    color: #e79974;
+}
+#info-container{
+    margin-right: 90px;
+    width: 590px;
+}
+
+#my-pics{
+    width: 360px;
+    height: auto;
+    margin-top: 10px;
+}
+
+#hero-pic{
+    border-radius:33px;
+    width: 360px;
+    height: 360px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+#about{
+    display: flex;
+    margin-top: 36px;
+}
+
+#paragraph-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.paragraph{
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-size: 18px;
+}
+
+.my-code{
+    white-space: normal;
+}
+
+/* for tablets */
+@media screen and (max-width:1060px){
+    #welcomeContainer{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        width: 644px;
+    }
+
+    #welcome-main{
+        padding-top: 176px;
+        padding-bottom: 86px;
+    }
+
+    #hero-pic{
+        width: 300px;
+        height: 300px;
+        align-self: center;
+    }
+
+    #title-container{
+        margin-top: 30px;
+    }
+
+    #info-container{
+        margin-right: 0px;
+        width: auto;
+    }
+
+    #my-pics{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+    }
+
+    #icon-tags{
+        margin:auto;
+    }
+    
+    #github, #insta{
+        margin-right: 0px;
+    }
+}
+
+/* for large phones */
+@media screen and (max-width:744px) {
+    #info-container{
+        margin: 0px 25px;
+    }
+
+    #hero-pic{
+        width: 228px;
+        height: 228px;
+    }
+
+    #title-container{
+        margin-top: 38px;
+    }
+
+    .my-title{
+        font-size: max(5.75vw,29px);
+    }
+
+    .paragraph{
+        font-size: max(2.41vw,16px)!important;
+    }
+
+    #about{
+        margin-top: 31px;
+    }
+
+    #welcome-main{
+        padding-top: 102px;
+        padding-bottom: 52px;
+    }
+
+}

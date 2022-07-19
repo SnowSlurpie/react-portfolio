@@ -1,0 +1,97 @@
+#aboutMe, #projects, #contact, #resume{
+    text-transform: none;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    color: #74c2e7
+}
+
+#navBar{
+    background: rgba(255,255,255,0.2);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 2px 25px rgba(0,0,0,0.06);
+    height: 90px;
+}
+
+#aboutMe:hover, #projects:hover, #contact:hover, #resume:hover{
+    color: #656565;
+}
+
+#mobile-nav{
+    display: none;
+}
+
+#burger{
+    display: none;
+}
+
+/* for tablets */
+@media screen and (max-width:1060px) {
+    #intro, #work, #resume, #contact{
+        font-size: 17px;
+    }
+}
+
+/* for phones */
+@media screen and (max-width:744px) {
+    #my-nav{
+        display: none;
+    }
+
+    #mobile-nav{
+        display: block;
+        background-color: #fff;
+        width: 100%;
+        text-align: center;
+        -webkit-transition: all 0.4s ease-out;
+        transition: all 0.4s ease-out;
+        box-shadow: 0 3px 25px 2px rgba(0,0,0,0.06);
+        z-index: 2;
+        position:absolute;
+    }
+ 
+    #mobile-nav li{
+        margin: 40px 0px 0px 0px;
+        line-height: 17px;
+    }
+    
+    #nav-menu{
+        padding: 0px;
+        margin: 0px;
+    }
+
+    #nav-menu:last-child{
+        margin-bottom: 40px;
+    }
+
+    .bar{
+        display: block;
+        width: 26px;
+        height: 2px;
+        margin: 8px auto;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        background-color: black;
+    }
+    
+    #burger{
+        display:block;
+        z-index: 5;
+        position: absolute;
+        right: 0;
+        padding: 36px 36px 0px 36px;
+    }
+    
+    #burger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    
+    #burger.active .bar:nth-child(1){
+        transform: translateY(10px) rotate(45deg);
+    }
+    
+    #burger.active .bar:nth-child(3){
+        transform: translateY(-10px) rotate(-45deg);
+    }
+}

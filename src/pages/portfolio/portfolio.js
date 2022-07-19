@@ -1,9 +1,9 @@
 import React from "react";
-// import "./portfolio.css";
-// TO DO: Portfolio css
+import "./portfolio.css";
 import Pawnder from '../../assets/images/pawnder.png';
 import RunBuddy from '../../assets/images/run-buddy.png';
 import Spirit from '../../assets/images/spirit.jpg';
+import BuddyByDaylight from '../../assets/images/artist.jpg';
 import Card from "../../components/card";
 
 
@@ -15,6 +15,13 @@ function Project() {
             image: Pawnder,
             description: 'Application that allows users to meet other like-minded people and connect with them and their dog. You create a profile, then you can search for other users and connect with them.',
             repo: "https://github.com/SnowSlurpie/woof-call"
+        },
+        {
+            id: 'buddy_by_daylight',
+            title: 'Buddy By Daylight',
+            image: BuddyByDaylight,
+            description: 'An application I am developing that is intended to be a companion for both casual and veteran Dead By Daylight players. The application will fetch your game stats via STEAM and let you see progress on achievements, among other things.',
+            repo: "https://github.com/SnowSlurpie/buddy_by_daylight"
         },
         {
             id: 'runBuddy',
@@ -32,20 +39,21 @@ function Project() {
         },
     ]
 
-    return (
-        <div>
-            <div>
-                <div>
-                    <h1> Current Projects</h1>
+    return(
+        <div id="project">
+            <div id="project-container">
+                <div id="project-title-container">
+                    <h1 id="project-header">Projects </h1>
+                    <h1 id="project-title">so far...</h1>
                 </div>
-                <div>
+                <div id="grid-container">
                     {myProjects.map(project => {
                         return <Card
                             id={project.id}
                             background={project.image}
-                            title={project.title}
-                            description={project.description}
-                            repo={project.repo}
+                            title = {project.title}
+                            description = {project.description}
+                            repo = {project.repo}
                         />
                     })}
                 </div>

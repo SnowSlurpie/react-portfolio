@@ -9,13 +9,12 @@ function Contact() {
         <div className="contact">
             <div id="contact-container">
                 <div id="contact-title-container">
-                    <h1 className="project-title"> Let's</h1>
-                    <h1 id="contact"> Talk</h1>
-                    <h1 className="project-title"> !</h1>
+                    <h1 id="contact">Please</h1>
+                    <h1 className="project-title"> reach out!</h1>
              </div>
                     <div id="contact-me">
-                        <p className="about-me" id="contact-me">
-                    Please reach out to me if you would like to work together or even if you would like to network.
+                        <p id="contact-me">
+                            Please reach out to me if you would like to work together or even if you would like to network.
                         </p>
                     </div>
                 <button onClick={clickMe} id="contact-button">Drop a Line!</button>
@@ -23,4 +22,4 @@ function Contact() {
         </div>
     );
 }
-    export default Contact;
+export default Contact;

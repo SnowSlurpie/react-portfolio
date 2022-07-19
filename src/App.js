@@ -1,10 +1,10 @@
 import React from "react";
 import Navbar from "./components/navbar";
+import AboutMe from "./pages/aboutMe/Aboutme";
 import Contact from "./pages/contact/contact";
 import Portfolio from "./pages/portfolio/portfolio";
-// import AboutMe from "./pages/aboutMe/aboutMe";
 
-// These need to be completed
+
 
 function App() {
   return (

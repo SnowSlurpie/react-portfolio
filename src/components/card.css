@@ -1,4 +1,4 @@
-.new-card{
+.new{
     height: 410px;
     transition: bottom 0.2s!important;
     width: 330px;
@@ -7,7 +7,7 @@
     bottom: 0px;
 }
 
-.new-card:hover{
+.new:hover{
     bottom: 10px;
 }
 
@@ -61,7 +61,7 @@
 
 /* for tablets */
 @media screen and (max-width:1060px) {
-    .new-card{
+    .new{
         width: 310px;
         height: 410px;
     }
@@ -69,16 +69,11 @@
 
 /* for large phones*/
 @media screen and (max-width:744px) {
-    .new-card{
+    .new{
         justify-self: center;
     }
 
-    .new-card:hover{
+    .new:hover{
         bottom: 0px;
     }
-}
-
-/* TODO: media queries for small phones */
-@media screen and (max-width:365px) {
-    
 }

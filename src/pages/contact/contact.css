@@ -1,4 +1,4 @@
-#contact{
+#cotact{
     height: 555px;
     align-items: center;
     display: flex;
@@ -17,7 +17,7 @@
 }
 
 #contact{
-    color: #03a7f3;
+    color: #74c2e7;
 }
 
 #contact-container{
@@ -51,11 +51,11 @@
 }
 
 @media screen and (max-width:1060px) {
-    #connect{
+    #contact{
         height: 398px;
     }
 
-    #connect-with-me{
+    #contact-me{
         margin-bottom: 38px;
         width: 550px;
     }
