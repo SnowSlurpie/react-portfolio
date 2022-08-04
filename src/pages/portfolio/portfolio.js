@@ -4,6 +4,7 @@ import Pawnder from '../../assets/images/pawnder.png';
 import RunBuddy from '../../assets/images/run-buddy.png';
 import Spirit from '../../assets/images/spirit.jpg';
 import BuddyByDaylight from '../../assets/images/artist.jpg';
+import jList from '../../assets/images/jlist.png';
 import Card from "../../components/card";
 
 
@@ -36,6 +37,13 @@ function Project() {
             image: Spirit,
             description: 'This project is a website that allows the end user to obtain the current weather for a location while also retrieving data related to the moon phase and how clear the sky is at that given moment. Uses Visual Crossing\'s Weather API and NASA\'s Astronomy Picture of the Day API.',
             repo: "https://github.com/aubree-alexander/the-nasa-spirit"
+        },
+        {
+            id: 'jlist',
+            title: 'Jessies List',
+            image: jList,
+            description: 'This application is a platform for parents to track chores that they assign to their children to complete. At a glance a parent will be able to see which chores still need to be completed by their child as well as add more chores to their list by using our user-focused design!',
+            repo: "https://github.com/thetinaest/chores-app"
         },
     ]
 
